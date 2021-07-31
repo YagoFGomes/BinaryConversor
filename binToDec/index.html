@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BinToDec</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+      
+    <div class="container">   
+        <div class="content">
+            <div class="card">
+                <div class="card-content">
+                    <div class='card-title'>
+                        <div class="columns">
+                            <div class="column ">
+                            </div>
+                            <div class="column is-5 has-text-centered">
+                                <h1 class="title" >
+                                    BinToDec
+                                </h1>
+                            </div>
+                            <div class="column">
+                            </div>
+                    </div>
+                <div class="content">
+                    <form class="box">
+                        <div class="field">
+                          <label class="label">Binary number</label>
+                          <div class="control">
+                            <input class='input is-large' type="text" name="binaryInput" id="binaryInput" placeholder="01001011">
+                          </div>
+                        </div>
+                      
+                        <div class="field">
+                          <label class="label">Decimal number</label>
+                          <div class="control">
+                            <input class="input is-large" type="text" placeholder="75" name="decimal-output" id="decimal-output">
+                          </div>
+                        </div>
+                      
+                        <button class="button is-large" onclick="Calc(); return false">Calculate</button>
+
+                      </form>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+</body>
+
+</html>
